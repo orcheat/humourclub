@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navb{
+ padding-left:15px;
+ position: fixed;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ height: 10vh;
+
+}
+.logo{
+    height: 69px;
+    width: 69px;
+    margin-right: 1000px;
+    padding-top: 15px;
+}
+a{
+  padding: 20px;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:link:hover
+{
+    text-decoration: none;
+    color: rgb(1, 180,250);
+}
+.home{
+    margin-top: 10px;
+    /* width: 100%;
+    height: 100%; */
+}
+.welcome{
+    /* display: block; */
+    position: relative;
+    background:none;
+    font-family: 'Anton', sans-serif;
+    align-content: center;
+    padding:244px;
+    font-size: 96px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    opacity: 1;
+    color:rgb(1, 180,250);
+    
+    
+}
+.left::before{
+    /* background-image: url(bgimages/tatti.jpg); */
+    /* background:bg */
+    content: "";
+    position: absolute;
+    display:flex;
+    float: left;
+    width:70%;
+    height: 100vh;
+    background-image : url(bgimages/tatti.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.3;
+    text-align: center;
+    align-content: center; 
+    /* background-size:cover; */
+    /* text-shadow: 5px; */
+}
+.left {
+   
+    position: relative;
+    /* top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; */
+    background-color: rgba(0,0,0,0.25);
+}
+.right{
+    background-color: rgb(1, 180,250);
+    width:30%;
+    height: 100vh;
+    float:right;
+}
